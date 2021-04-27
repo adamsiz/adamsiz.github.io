@@ -15,7 +15,7 @@ const audio_ = [
    if(audio === "./bird.mp3") var audio__ = "bird sounds"
    if(audio === "./vibez.mp3") var audio__ = "dababy - vibes"
 
-   document.getElementById("playingmusic").innerHTML = `playing music...`
+   document.getElementById("playingmusic").innerHTML = `playing audio...`
 
    document.getElementById("openjavascript").style.display = "none"
 
