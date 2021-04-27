@@ -23,5 +23,5 @@ const audio_ = [
    play.play().then(() => {
     document.getElementById("nowplaying").innerHTML = `now playing ${audio__}`
    }).catch(() => {
-    document.getElementById("nowplaying").innerHTML = `could not be played. please check the browser settings.`
+    document.getElementById("nowplaying").innerHTML = `site settings > sound > allow to play music.`
    })
