@@ -4,7 +4,8 @@ const audio_ = [
     "./love.mp3",
     "./bird.mp3",
     "./vibez.mp3",
-    "./butterfly.mp3"
+    "./butterfly.mp3",
+    "./soviet.mp3"
    ];
 
    const audio = audio_[Math.floor(Math.random() * audio_.length)];
@@ -16,6 +17,7 @@ const audio_ = [
    if(audio === "./bird.mp3") var audio__ = "bird sounds"
    if(audio === "./vibez.mp3") var audio__ = "dababy - vibes"
    if(audio === "./butterfly.mp3") var audio__ = "smile - butterfly"
+   if(audio === "./soviet.mp3") var audio__ = "soviet march earpe"
 
    document.getElementById("playingmusic").innerHTML = `playing audio...`
 
